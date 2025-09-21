@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marthi Sharmila - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f9fbfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    nav {
+      background: #2c3e50;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #3498db, #2c3e50);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto;
+    }
+
+    /* Profile Image */
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #3498db;
+      display: block;
+      margin: -90px auto 20px;
+      background: #fff;
+    }
+
+    /* Section Styling */
+    h2 {
+      margin: 20px 0 15px;
+      color: #2c3e50;
+      border-left: 6px solid #3498db;
+      padding-left: 12px;
+      font-size: 1.6rem;
+    }
+
+    .section {
+      background: #fff;
+      margin: 25px 0;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    .section ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .section ul li {
+      background: #f4f6f9;
+      margin: 8px 0;
+      padding: 12px;
+      border-radius: 6px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      background: #2c3e50;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #3498db;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="#summary">Home</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>M.Sharmila</h1>
+    <p>Front-End Developer | React.js | UI/UX Enthusiast | DSA Learner</p>
+  </header>
+
+  <div class="container">
+    <!-- Profile Image -->
+
+   <img src="./image.jpeg" alt="My Image" class="profile-img">
+
+
+
+    <!-- Summary -->
+    <div class="section" id="summary">
+      <h2>Summary</h2>
+      <p>
+        Motivated and detail-oriented B.Tech 2nd-year student with a strong foundation in front-end web 
+        development. Skilled in HTML, CSS, JavaScript, and React, with a passion for creating dynamic and 
+        user-friendly web experiences. Proficient in C, C++, and Java, with a strong understanding of Data 
+        Structures & Algorithms (DSA). Eager to enhance problem-solving skills and contribute to modern 
+        web development projects.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><b>B.Tech in Computer Science</b> – Vignan’s Institute of Information Technology, CGPA: 8.3 (2022 – 2026)</li>
+        <li><b>Intermediate (MPC)</b> – APSWRIES School, CGPA: 9.1 (2020 – 2022)</li>
+        <li><b>SSC</b> – APSWRIES College, GPA: 9.8 (2019 – 2020)</li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming & Problem Solving: C, C++, Java, Python (basics)</li>
+        <li>Frontend Development: HTML, CSS, JavaScript, React.js</li>
+        <li>Database Management: MySQL</li>
+        <li>Tools: Git, GitHub, VS Code</li>
+        <li>Soft Skills: Communication, Team Collaboration</li>
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>Basic Web Portfolio</b> – Created a simple portfolio website using React.js & Node.js.</li>
+        <li><b>Smart College Canteen Management System</b> – Built with React.js, Node.js, Firebase Cloud. Implemented features like real-time orders, secure payments, and inventory management.</li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:marthisharmila555@gmail.com">marthisharmila555@gmail.com</a></p>
+      <p>Phone: +91 8008459143</p>
+      <p>Location: Visakhapatnam, Andhra Pradesh</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Marthi Sharmila | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
